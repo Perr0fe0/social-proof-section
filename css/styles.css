@@ -61,8 +61,41 @@ p{
 .estrellas-parrafo{
     color: var(--primary-vd-magenta);
     font-weight: 700;
-}  
+}
 
+.contenedor-seccion2{
+    margin-top: 1rem;
+}
+
+.seccion2-users{
+    background-color: var(--primary-vd-magenta);
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    
+}
+
+.users-perfil{
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+}
+.users-img{
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+.users-nombre{
+    color: var(--neutral-white);
+    font-weight: 500;
+}
+span{
+    color: var(--primary-s-pink);
+}
+.users-comentario{
+    color: var(--neutral-white);
+}
 /*Frontend Mentor properties*/  
 .attribution {
     font-size: 11px;
