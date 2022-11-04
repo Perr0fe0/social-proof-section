@@ -56,15 +56,21 @@ p{
     }
     .contenedor-seccion1{
         background-image: url("../images/bg-pattern-top-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .contenedor-seccion2{
         background-image: url("../images/bg-pattern-bottom-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
     }
 }
 
 /*Seccion 1*/
 .contenedor-seccion1{
- background-image: url("../images/bg-pattern-top-mobile.svg");   
+ background-image: url("../images/bg-pattern-top-mobile.svg");
+ background-repeat: no-repeat;   
 }
 .contenedor-titulo{
     color: var(--primary-vd-magenta);
