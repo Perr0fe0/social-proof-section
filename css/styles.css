@@ -1,0 +1,73 @@
+/*importar fuente / font import*/
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+/*propiedades personalizadas / custom properties*/
+:root{
+    --primary-vd-magenta:hsl(300, 43%, 22%);
+    --primary-s-pink:hsl(333, 80%, 67%);
+
+    --neutral-dg-magenta:hsl(303, 10%, 53%);
+    --neutral-lg-magenta:hsl(300, 24%, 96%);
+    --neutral-white:hsl(0, 0%, 100%);
+
+    --League-Spartan:'League Spartan';
+}
+
+/*Box sizing*/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+h1{
+    font-size: 3.5rem;
+    font-family: var(--League-Spartan);
+    font-weight: 700;
+    text-align: center;
+    margin: 3rem 4rem;
+}
+p{
+    font-size: 1.5rem;
+    font-family: var(--League-Spartan);
+}
+
+/*contenido body*/
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    width: 90%;
+}
+.contenedor-titulo{
+    color: var(--primary-vd-magenta);
+}
+.seccion1-parrafo{
+    color: var(--neutral-dg-magenta);
+    text-align: center;
+    margin: 0 1rem;
+}
+.seccion1-estrellas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--neutral-lg-magenta);
+    margin: 2rem auto;
+    padding-top: 2rem;
+    border-radius: 1rem;
+}
+.estrellas-parrafo{
+    color: var(--primary-vd-magenta);
+    font-weight: 700;
+}  
+
+/*Frontend Mentor properties*/  
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
